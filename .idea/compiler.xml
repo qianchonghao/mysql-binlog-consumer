@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="binlog-consumer-core" />
+        <module name="binlog-consumer-1.0" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="binlog-consumer-core" target="1.8" />
+      <module name="binlog-consumer-1.0" target="1.8" />
       <module name="mysql-binlog-consumer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="binlog-consumer-core" options="-parameters" />
+      <module name="binlog-consumer-1.0" options="-parameters" />
       <module name="mysql-binlog-consumer" options="-parameters" />
     </option>
   </component>

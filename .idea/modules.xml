@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/binlog-consumer-core/binlog-consumer-core.iml" filepath="$PROJECT_DIR$/binlog-consumer-core/binlog-consumer-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/binlog-consumer-core/binlog-consumer-1.0.iml" filepath="$PROJECT_DIR$/binlog-consumer-core/binlog-consumer-1.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mysql-binlog-consumer.iml" filepath="$PROJECT_DIR$/.idea/mysql-binlog-consumer.iml" />
     </modules>
   </component>

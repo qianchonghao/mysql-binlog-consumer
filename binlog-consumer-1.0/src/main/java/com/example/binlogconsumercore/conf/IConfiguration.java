@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableConfigurationProperties(BinlogSyncConfig.class)
 public class IConfiguration {
+//    @leimo todo : del
     @Bean
     public BinlogListener binlogListener(BinlogSyncConfig config){
         System.out.println(">>>>>>>>>>>>>> binlogConfig:" + JSON.toJSONString(config));
